@@ -11,7 +11,7 @@ const Footer = () => {
 		<div className={styles.containerFooter}>
 			<p >
                 <a className={styles.pFooter}
-					href="https://github.com/PamelaElin/portfolio-elin"
+					href="https://github.com/PamelaElin/portfolio-PamelaElin"
 					target='_blank'
 					rel='noopener noreferrer'
 				>{t("footer.made")}<span className={styles.spanFooter}><FaRegHeart /></span>

@@ -58,6 +58,7 @@ const Home = () => {
               href="https://www.linkedin.com/in/pamelaelinsosa/"
               target="_blank"
               rel="noreferrer"
+              title='Linkedin'
             >
               <FaLinkedin size={30} />
             </a>
@@ -71,6 +72,7 @@ const Home = () => {
               href="https://github.com/PamelaElin"
               target="_blank"
               rel="noreferrer"
+              title='GitHub'
             >
               <FaGithub size={30} />
             </a>
@@ -78,14 +80,14 @@ const Home = () => {
         </motion.div>
         <motion.div variants={nut}>
           <div className={`${styles.iconBox} bg-[#6fc2b0]`}>
-            <div className={styles.icon} onClick={toContact}>
+            <div className={styles.icon} onClick={toContact} title={t('homePage.titleContact')}>
               <HiOutlineMail size={30} />
             </div>
           </div>
         </motion.div>
         <motion.div variants={nut}>
           <div className={`${styles.iconBox} bg-[#b480b6]`}>
-            <a className={styles.icon} href={Resume}>
+            <a className={styles.icon} href={Resume} title={t('homePage.titleCV')}>
               <BsFillPersonLinesFill size={30} />
             </a>
           </div>

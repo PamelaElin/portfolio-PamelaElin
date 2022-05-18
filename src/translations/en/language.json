@@ -8,7 +8,9 @@
 },
    "homePage":{
                  "hi":"Hi!, I'm",
-                 "title":"Front-end Developer."
+                 "title":"Front-end Developer.",
+                 "titleContact":"Send me an email",
+                 "titleCV":"Download my resume"
                  
 
    },

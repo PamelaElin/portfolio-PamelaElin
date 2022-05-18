@@ -8,7 +8,9 @@
 },
    "homePage":{
                  "hi":"Hola!, soy",
-                 "title":"Desarrolladora Front-end."
+                 "title":"Desarrolladora Front-end.",
+                 "titleContact":"Envíame un correo",
+                 "titleCV":"Descarga mi CV"
                 
                 
 

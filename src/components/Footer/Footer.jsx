@@ -14,6 +14,7 @@ const Footer = () => {
 					href="https://github.com/PamelaElin/portfolio-PamelaElin"
 					target='_blank'
 					rel='noopener noreferrer'
+					title={t('footer.title')}
 				>{t("footer.made")}<span className={styles.spanFooter}><FaRegHeart /></span>
 				{t("footer.and")}<span className={styles.spanFooter}><FaReact /></span>
 				

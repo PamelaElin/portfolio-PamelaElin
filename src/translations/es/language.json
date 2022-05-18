@@ -1,0 +1,50 @@
+{   
+    "navPage":{
+        "home":"Inicio",
+        "about":"Sobre mi",
+        "skills":"Habilidades",
+        "work":"Proyectos",
+        "contact":"Contacto"
+},
+   "homePage":{
+                 "hi":"Hola!, soy",
+                 "title":"Desarrolladora Front-end."
+                
+                
+
+   },
+   "aboutPage":{
+    "about":"Sobre mi",
+    "title":"Hola, mi nombre es Elin y soy autodidacta. Aquí cuento un poco sobre mi.",
+    "text":" Soy desarrolladora front-end | React js. El trabajo en equipo me permitió ganar experiencia en habilidades duras y blandas. Valoro el buen ambiente de trabajo y el aprendizaje diario junto con el resto del equipo. Trato de aprender nuevas tecnologías, mejorar mi habilidades cada día, y adaptarme a los cambios. Aspiro a trabajar en una empresa donde pueda ampliar mis conocimientos y evolucionar constantemente."
+   
+   },
+   "skillsPage":{
+    "skills":"Habilidades",
+    "subtitle":"Estas son algunas de las tecnologías con las que he trabajado"
+   },
+   "workPage":{
+    "work":"Proyectos",
+    "subtitle":"Mira algunos de mis trabajos recientes",
+    "textMovies":"Ésta App de películas muestra la implementación de llamada a la API TMDB. Contiene un search, un botón animado, y las portadas abren una ventana modal con las reseñas de tu elección. El Home redirige a la pantalla principal de búsqueda. Se utilizó Bootstrap y css.",
+    "textWeather":"Esta aplicación meteorológica muestra la implementación de la llamada a la API de openweathermap con axios. Busca el clima según la ubicación que desees. Fue creado con Reactjs y css.",
+    "textcrud":"(Crear, Leer, Actualizar, Eliminar) Éste proyecto fue creado con React.js, implementando redux-toolkit, react-router-dom y Tailwind",
+    "textToDo":"Lista de tareas: Es un proyecto basado en el CRUD anterior. Creado con React.js, redux-toolkit, react-router-dom y Tailwind.  "
+
+   },
+   "contactPage":{
+    "contact":"Contacto",
+    "subtitle":"Envía el formulario a continuación o un correo a -sosapamelaelin@gmail.com",
+    "name":"Nombre",
+    "email":"Correo",
+    "invalid":"Por favor ingrese su dirección de correo electrónico válida.",
+    "message":"Escribe tu mensaje. Con gusto lo leeré"
+   },
+   "buttonPink":{
+    "home":"Ver proyectos",
+    "contact":"Enviar"   },
+ "footer":{
+    "made":"Hecho con",
+  "and":"&",
+  "by":"por mi!"}
+}

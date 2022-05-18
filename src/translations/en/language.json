@@ -1,0 +1,50 @@
+{   
+    "navPage":{
+                 "home":"Home",
+                "about":"About",
+                "skills":"Skills",
+                "work":"Work",
+                "contact":"Contact"
+},
+   "homePage":{
+                 "hi":"Hi!, I'm",
+                 "title":"Front-end Developer."
+                 
+
+   },
+   "aboutPage":{
+               "about":"About me",
+               "title":" Hi, I'm Elin and I'm autodidact. Here I tell you a little about me.",
+               "text":" I'm a front-end developer | React js. Teamwork allowed me to gain experience in hard and soft skills. I value the good working environment and daily learning together with the rest of the team. I try to learn new technologies, improve my skills every day, and adapt to changes. I aspire to work in a company where I can expand my knowledge and constantly evolve."
+               
+   },
+   "skillsPage":{
+                  "skills":"Skills",
+                  "subtitle":"These are some of the technologies I have worked with"
+   },
+   "workPage":{
+            "work":"Work",
+            "subtitle":"Check out some of my recent work",
+            "textMovies":"This movie application demonstrates the implementation of the TMDB API call. It contains a search, an animated button, and the covers open a modal window with the overviews of your choice. Home redirects to the main search screen. Bootstrap and css were used.",
+            "textWeather":"This Weather App shows the implementation of the openweathermap API call with axios. It looks for the weather according to the location you want. It was created with Reactjs and css.",
+            "textcrud":"(Create, Read, Update, Delete) This project was created with React.js, implementing redux-toolkit, react-router-dom and Tailwind",
+            "textToDo":"To do List - This is a CRUD based project. Built with React.js, redux-toolkit, react-router-dom, and Tailwind."
+         },
+   "contactPage":{
+      "contact":"Contact",
+      "subtitle":"Submit the form below or an email to-sosapamelaelin@gmail.com",
+      "name":"Name",
+      "email":"Email",
+      "invalid":"Please provide a valid email address.",
+      "message":"Write your message."
+   },
+   "buttonPink":{
+      "home":"View Work",
+      "contact":"Send"   },
+   "footer":{
+      "made":"Made whit",
+      "and":"and",
+      "by":"by me!"
+   }
+
+}

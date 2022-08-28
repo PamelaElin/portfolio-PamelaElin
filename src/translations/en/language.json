@@ -15,9 +15,10 @@
 
    },
    "aboutPage":{
-               "about":"About me",
-               "title":" Hi, I'm Elin and I'm autodidact. Here I tell you a little about me.",
-               "text":" I'm a front-end developer | React js. Teamwork allowed me to gain experience in hard and soft skills. I value the good working environment and daily learning together with the rest of the team. I try to learn new technologies, improve my skills every day, and adapt to changes. I aspire to work in a company where I can expand my knowledge and constantly evolve."
+      "about":"Hi, My name is Elin!",
+      "title":"I started as a self-taught and now I am strengthening my knowledge in OpenBootcamp.",
+      "textCol2":" I’m a front-end developer|React js. Teamwork allowed me to gain experience in hard and soft skills. I value the good working environment and daily learning together with the rest of the team. I learn new technologies to improve my skills every day and adapt to changes. I aspire to work in a company where I can expand my knowledge and constantly evolve.",
+      "textCol3":" This portfolio I did with my knowledge as a self-taught. In it you will find projects before and after the Bootcamp. ¡ I like what I have achieved and I hope you too!"
                
    },
    "skillsPage":{
@@ -26,7 +27,7 @@
    },
    "workPage":{
             "work":"Work",
-            "subtitle":"Check out some of my recent work",
+            "subtitle":"Look at some of my projects I did as a self-taught:",
             "textMovies":"This movie application demonstrates the implementation of the TMDB API call. It contains a search, an animated button, and the covers open a modal window with the overviews of your choice. Home redirects to the main search screen. Bootstrap and css were used.",
             "textWeather":"This Weather App shows the implementation of the openweathermap API call with axios. It looks for the weather according to the location you want. It was created with Reactjs and css.",
             "textcrud":"(Create, Read, Update, Delete) This project was created with React.js, implementing redux-toolkit, react-router-dom and Tailwind",

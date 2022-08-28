@@ -4,6 +4,7 @@ import Me from "../../assets/imgMe.jpg";
 import { father, toRight } from "../../components/Animations/Animations";
 import { useTranslation } from "react-i18next";
 import Footer from "../../components/Footer/Footer";
+import {BsEmojiSmile} from "react-icons/bs";
 const About = () => {
   const styles = useStyles();
   const [t]=useTranslation("language");
@@ -37,9 +38,18 @@ const About = () => {
 
             <div>
               <p>
-               {t("aboutPage.text")}
+               {t("aboutPage.textCol2")}
               </p>
              
+            </div> 
+            <div>
+              <p>
+               {t("aboutPage.textCol3")}
+              </p>
+              <div className={styles.smile}>
+             <BsEmojiSmile size={20}/>
+
+              </div>
             </div> 
           </div>
         </motion.div>

@@ -16,9 +16,10 @@
 
    },
    "aboutPage":{
-    "about":"Sobre mi",
-    "title":"Hola, mi nombre es Elin y soy autodidacta. Aquí cuento un poco sobre mi.",
-    "text":" Soy desarrolladora front-end | React js. El trabajo en equipo me permitió ganar experiencia en habilidades duras y blandas. Valoro el buen ambiente de trabajo y el aprendizaje diario junto con el resto del equipo. Trato de aprender nuevas tecnologías, mejorar mis habilidades cada día, y adaptarme a los cambios. Aspiro a trabajar en una empresa donde pueda ampliar mis conocimientos y evolucionar constantemente."
+    "about":"Hola, mi nombre es Elin!",
+    "title":"Empecé como autodidacta y ahora estoy reforzando mis conocimientos en OpenBootcamp.",
+    "textCol2":" Soy desarrolladora front-end|React js. El trabajo en equipo me permitió ganar experiencia en habilidades duras y blandas. Valoro el buen ambiente de trabajo y el aprendizaje diario junto con el resto del equipo. Aprendo nuevas tecnologías para mejorar mis habilidades cada día, y adaptarme a los cambios. Aspiro a trabajar en una empresa donde pueda ampliar mis conocimientos y evolucionar constantemente.",
+    "textCol3":" Este portfolio lo hice con mis conocimientos como autodidacta. En él encontrarán proyectos antes y despues del Bootcamp. ¡Me gusta lo que logré y espero que ustedes también!"
    
    },
    "skillsPage":{
@@ -27,7 +28,7 @@
    },
    "workPage":{
     "work":"Proyectos",
-    "subtitle":"Mira algunos de mis trabajos recientes",
+    "subtitle":"Mira algunos de mis proyectos que realicé como autodidacta:",
     "textMovies":"Ésta App de películas muestra la implementación de llamada a la API TMDB. Contiene un search, un botón animado, y las portadas abren una ventana modal con las reseñas de tu elección. El Home redirige a la pantalla principal de búsqueda. Se utilizó Bootstrap y css.",
     "textWeather":"Esta aplicación meteorológica muestra la implementación de la llamada a la API de openweathermap con axios. Busca el clima según la ubicación que desees. Fue creado con Reactjs y css.",
     "textcrud":"(Crear, Leer, Actualizar, Eliminar) Éste proyecto fue creado con React.js, implementando redux-toolkit, react-router-dom y Tailwind",

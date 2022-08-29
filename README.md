@@ -4,5 +4,5 @@ This is my portfolio. I built it with React.js using i18n, react-router-dom, fra
 
 Este es mi portfolio. Lo creé con React.js usando i18n, react-router-dom, framer-motion, react-icons, Tailwind y Getform. También implementé useStyles y lo componenticé para un código más limpio y ordenado.
 
-![image](https://user-images.githubusercontent.com/82474881/168931958-ab67d043-db78-4cb0-9c0b-efb8b50d7c3b.png)
 
+![image](https://user-images.githubusercontent.com/82474881/187317009-f508e509-4466-4fa2-9760-aeaa06ba274b.png)

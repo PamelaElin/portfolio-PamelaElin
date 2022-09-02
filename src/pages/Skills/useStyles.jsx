@@ -9,6 +9,9 @@ const useStyles = () => {
       containerSkills:'w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8 ',
       iconBox:'shadow-md shadow-[#040c16]  bg-black/60',
       icon:'w-20 mx-auto',
+      containerCertif:'w-full grid grid-cols-1 gap-4 text-center py-8 ',
+      certifBox:'shadow-md shadow-[#040c16]  bg-black/60',
+      certif:'w-full mx-auto p-3',
       
   }
 }

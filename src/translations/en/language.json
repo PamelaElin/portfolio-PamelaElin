@@ -24,7 +24,8 @@
    },
    "skillsPage":{
                   "skills":"Skills",
-                  "subtitle":"These are some of the technologies I have worked with"
+                  "subtitle":"These are some of the technologies I have worked with",
+                  "certif":"Certifications"
    },
    "workPage":{
             "work":"Work",

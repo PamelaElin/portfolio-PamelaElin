@@ -25,7 +25,9 @@
    },
    "skillsPage":{
     "skills":"Habilidades",
-    "subtitle":"Estas son algunas de las tecnologías con las que he trabajado"
+    "subtitle":"Estas son algunas de las tecnologías con las que he trabajado",
+    "certif":"Certificaciones"
+
    },
    "workPage":{
     "work":"Proyectos",

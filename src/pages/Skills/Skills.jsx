@@ -26,6 +26,8 @@ const Skills = () => {
       variants={father} 
        name='skills' 
        className={styles.container}> 
+
+       <div className={styles.textContainer}>
 <motion.p variants={toRight} className={styles.skills}>{t("skillsPage.skills")}</motion.p>
                 
                 <motion.p variants={toLeft} className={styles.text}>{t("skillsPage.subtitle")}</motion.p>
@@ -73,8 +75,10 @@ const Skills = () => {
                 </div>
                 
             </motion.div>
-            <Footer/>
-            </motion.div>
+            
+           </div> 
+           <Footer/>
+           </motion.div>
 
    
   )

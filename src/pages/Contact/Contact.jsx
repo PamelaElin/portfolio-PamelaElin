@@ -8,7 +8,7 @@ import {
   toLeft,
   toUp,
 } from "../../components/Animations/Animations";
-import ButtonPink from "../../components/Buttons/ButtonPink/ButtonPink";
+import ButtonOrange from "../../components/Buttons/ButtonOrange/ButtonOrange";
 import { useTranslation } from "react-i18next";
 import Footer from "../../components/Footer/Footer";
 const Contact = () => {
@@ -22,6 +22,9 @@ const Contact = () => {
       name="contact"
       className={styles.container}
     >
+      <div className={styles.textContainer}>
+        
+      
       <form
         method="POST"
         action="https://getform.io/f/97bb01c9-fe0b-4969-8ff3-fe621ed68099"
@@ -62,9 +65,13 @@ const Contact = () => {
           placeholder={t("contactPage.message")}
         />
 
-        <ButtonPink text={t("buttonPink.contact")} />
-         <Footer/>
+        <ButtonOrange text={t("buttonOrange.contact")} />
+         
       </form>
+     </div>
+     
+      <Footer/>
+      
      
     </motion.div>
   );

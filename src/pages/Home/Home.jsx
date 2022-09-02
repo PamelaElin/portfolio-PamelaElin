@@ -11,16 +11,16 @@ import {
   toLeft,
   nut,
 } from "../../components/Animations/Animations";
-import ButtonPink from "../../components/Buttons/ButtonPink/ButtonPink";
+import ButtonOrange from "../../components/Buttons/ButtonOrange/ButtonOrange";
 import ButtonSlider from "../../components/Buttons/ButtonSlider/ButtonSlider";
 import { useTranslation } from "react-i18next";
-import Footer from '../../components/Footer/Footer';
+import Footer from "../../components/Footer/Footer";
 const Home = () => {
   const navigate = useNavigate();
   const toWork = () => navigate("/work");
   const toContact = () => navigate("/contact");
   const styles = useStyles();
-  const [t]=useTranslation("language");
+  const [t] = useTranslation("language");
   return (
     <motion.div
       initial="hidden"
@@ -28,75 +28,82 @@ const Home = () => {
       variants={father}
       className={styles.container}
     >
-<div className={styles.subContainer}>
+      <div className={styles.subContainer}>
+        <ButtonSlider />
 
-    <ButtonSlider/>
+        <div className={styles.textContainer}>
+          <motion.p variants={toLeft} className={styles.hi}>
+            {t("homePage.hi")}
+          </motion.p>
+          <motion.h1
+            variants={toRight}
+            className={`${styles.textTitle} text-white`}
+          >
+            {t("homePage.title")}
+          </motion.h1>
+          <motion.h2
+            variants={toLeft}
+            className={`${styles.textsubTitle} text-[#ced7ee]`}
+          >
+            {t("homePage.subtitle")}
+          </motion.h2>
+        </div>
 
-    
-     
-      <motion.p variants={toLeft} className={styles.hi}>
-      {t("homePage.hi")}
-      </motion.p>
-      <motion.h1
-        variants={toRight}
-        className={`${styles.textTitle} text-white`}
-      >
-        Pamela Elin Sosa
-      </motion.h1>
-      <motion.h2
-        variants={toLeft}
-        className={`${styles.textTitle} text-[#ced7ee]`}
-      >
-        {t("homePage.title")}
-      </motion.h2>
-     
-      <div className={styles.socialIcons}>
-        <motion.div variants={nut}>
-          <div className={`${styles.iconBox}  bg-[#86b7df] `}>
-            <a
-              className={styles.icon}
-              href="https://www.linkedin.com/in/pamelaelinsosa/"
-              target="_blank"
-              rel="noreferrer"
-              title='Linkedin'
-            >
-              <FaLinkedin size={30} />
-            </a>
-          </div>
-        </motion.div>
-        <motion.div variants={nut}>
-          <div className={`${styles.iconBox} bg-[#333333] `}>
-            {" "}
-            <a
-              className={styles.icon}
-              href="https://github.com/PamelaElin"
-              target="_blank"
-              rel="noreferrer"
-              title='GitHub'
-            >
-              <FaGithub size={30} />
-            </a>
-          </div>
-        </motion.div>
-        <motion.div variants={nut}>
-          <div className={`${styles.iconBox} bg-[#6fc2b0]`}>
-            <div className={styles.icon} onClick={toContact} title={t('homePage.titleContact')}>
-              <HiOutlineMail size={30} />
+        <div className={styles.socialIcons}>
+          <motion.div variants={nut}>
+            <div className={`${styles.iconBox}  bg-[#86b7df] `}>
+              <a
+                className={styles.icon}
+                href="https://www.linkedin.com/in/pamelaelinsosa/"
+                target="_blank"
+                rel="noreferrer"
+                title="Linkedin"
+              >
+                <FaLinkedin size={30} />
+              </a>
             </div>
-          </div>
-        </motion.div>
-        <motion.div variants={nut}>
-          <div className={`${styles.iconBox} bg-[#b480b6]`}>
-            <a className={styles.icon} href={Resume} title={t('homePage.titleCV')}>
-              <BsFillPersonLinesFill size={30} />
-            </a>
-          </div>
-        </motion.div>
-      </div>
+          </motion.div>
+          <motion.div variants={nut}>
+            <div className={`${styles.iconBox} bg-[#333333] `}>
+              {" "}
+              <a
+                className={styles.icon}
+                href="https://github.com/PamelaElin"
+                target="_blank"
+                rel="noreferrer"
+                title="GitHub"
+              >
+                <FaGithub size={30} />
+              </a>
+            </div>
+          </motion.div>
+          <motion.div variants={nut}>
+            <div className={`${styles.iconBox} bg-[#6fc2b0]`}>
+              <div
+                className={styles.icon}
+                onClick={toContact}
+                title={t("homePage.titleContact")}
+              >
+                <HiOutlineMail size={30} />
+              </div>
+            </div>
+          </motion.div>
+          <motion.div variants={nut}>
+            <div className={`${styles.iconBox} bg-orange-400`}>
+              <a
+                className={styles.icon}
+                href={Resume}
+                title={t("homePage.titleCV")}
+              >
+                <BsFillPersonLinesFill size={30} />
+              </a>
+            </div>
+          </motion.div>
+        </div>
 
-      <ButtonPink text={t("buttonPink.home")} onClick={toWork} />
+        <ButtonOrange text={t("buttonOrange.home")} onClick={toWork} />
       </div>
-      <Footer/>
+      <Footer />
     </motion.div>
   );
 };

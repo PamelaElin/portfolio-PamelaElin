@@ -7,8 +7,9 @@
         "contact":"Contacto"
 },
    "homePage":{
-                 "hi":"Hola!, soy",
-                 "title":"Desarrolladora Front-end.",
+                 "hi":"Hola y Bienvenidos!",
+                 "title":"Mi nombre es Pamela Elin Sosa y soy Desarrolladora Front-end.",
+                 "subtitle":"Los invito a que se tomen unos minutos, preparen su café, y vean mi portfolio. Espero que les guste!",
                  "titleContact":"Envíame un correo",
                  "titleCV":"Descarga mi CV"
                 
@@ -43,7 +44,7 @@
     "invalid":"Por favor ingrese su dirección de correo electrónico válida.",
     "message":"Escribe tu mensaje. Con gusto lo leeré"
    },
-   "buttonPink":{
+   "buttonOrange":{
     "home":"Ver proyectos",
     "contact":"Enviar"   },
  "footer":{

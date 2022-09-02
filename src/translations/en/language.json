@@ -7,8 +7,9 @@
                 "contact":"Contact"
 },
    "homePage":{
-                 "hi":"Hi!, I'm",
-                 "title":"Front-end Developer.",
+                 "hi":"Hi and Welcome!",
+                 "title":"My name is Pamela Elin Sosa and I'm Front-end Developer.",
+                 "subtitle":"I invite you to take a few minutes, prepare your coffee, and see my portfolio. I hope you like it!",
                  "titleContact":"Send me an email",
                  "titleCV":"Download my resume"
                  
@@ -41,7 +42,7 @@
       "invalid":"Please provide a valid email address.",
       "message":"Write your message."
    },
-   "buttonPink":{
+   "buttonOrange":{
       "home":"View Work",
       "contact":"Send"   },
    "footer":{

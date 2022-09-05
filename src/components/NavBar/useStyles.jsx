@@ -1,6 +1,6 @@
 const useStyles = () => {
   return {
-      container:" w-full h-[60px] flex justify-between items-center px-4 bg-black/70 text-white absolute top-0",
+      container:" w-full h-[60px] flex justify-between items-center px-4 bg-black/70 text-white fixed top-0",
       peImg:'w-[60px]',
     menu:" hidden md:flex ",
       menu_text:'hover:text-amber-500 text-white',

@@ -6,15 +6,12 @@ import Skills from "./pages/Skills/Skills.jsx";
 import Work from "./pages/Work/Work.jsx";
 import { Routes, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import bgVideo from "../src/assets/videoBg.mp4";
 
 const RouterApp = () => {
   return (
     <div>
       <NavBar />
-      <video autoPlay loop muted>
-					<source src={bgVideo} type='video/mp4' />
-				</video>
+     
       <AnimatePresence>
         <Routes>
           <Route path="/" element={<Home />} />

@@ -1,6 +1,6 @@
 body {
 	content: '';
-	width: 100vw;
+
 	height: 100vh;
 }
 video {
@@ -47,12 +47,11 @@ video {
 
 .slider {
   position: absolute;
-  
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #3c3c3c;
+  background-color: #df6bdfe3;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 34px;
@@ -74,11 +73,11 @@ video {
 }
 
 input:checked + .slider {
-  background-color: #e7a61a;
+  background-color: #1aa6e7e1;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #e28010;
+  box-shadow: 0 0 1px #10e2c6;
 }
 
 input:checked + .slider:before {

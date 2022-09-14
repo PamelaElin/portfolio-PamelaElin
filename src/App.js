@@ -1,6 +1,6 @@
 import "./App.css";
 import RouterApp from "./RouterApp.jsx";
-import bgVideo from "../src/assets/videoBg.mp4";
+import bgVideo from "../src/assets/videoBg7.mp4";
 
 export const App = () => {
   return (

@@ -37,13 +37,13 @@ const Home = () => {
           </motion.p>
           <motion.h1
             variants={toRight}
-            className={`${styles.textTitle} text-white`}
+            className={`${styles.textTitle} `}
           >
             {t("homePage.title")}
           </motion.h1>
           <motion.h2
             variants={toLeft}
-            className={`${styles.textsubTitle} text-[#dce4f8]`}
+            className={`${styles.textsubTitle} `}
           >
             {t("homePage.subtitle")}
           </motion.h2>

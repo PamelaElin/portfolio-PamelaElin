@@ -8,9 +8,11 @@ const ButtonSlider = () => {
   const handleChange=()=>setLang(!lang)
   const changeLanguage=()=>{lang?i18n.changeLanguage("es"):i18n.changeLanguage("en")}
   return (
-    <div  className="w-full flex justify-end mt-12 "onChange={handleChange} onClick={changeLanguage}> 
+    <div  className="w-full flex justify-end mt-12 "> 
     <label className="switch">
-    <input type="checkbox"/>
+    <input type="checkbox"
+    onChange={handleChange}
+     onClick={changeLanguage}/>
     <span className="slider"></span>
   </label></div>
 

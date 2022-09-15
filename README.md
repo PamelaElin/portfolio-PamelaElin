@@ -1,4 +1,4 @@
-=>> https://pamelaelin.vercel.app/
+ >> https://pamelaelin.vercel.app/   
 
 This is my portfolio. I built it with React.js using i18n, react-router-dom, framer-motion, react-icons, Tailwind and Getform. I've also implemented a useStyles and broken it into components for cleaner and tidier code.
 

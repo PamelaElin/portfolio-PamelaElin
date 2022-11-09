@@ -6,6 +6,7 @@ import Skills from "./pages/Skills/Skills.jsx";
 import Work from "./pages/Work/Work.jsx";
 import { Routes, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
+import { Resumes } from "./pages/Resumes/Resumes.jsx";
 
 const RouterApp = () => {
   return (
@@ -19,6 +20,7 @@ const RouterApp = () => {
           <Route path="/skills" element={<Skills />} />
           <Route path="/work" element={<Work />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/resumes" element={<Resumes />} />
         </Routes>
        
       </AnimatePresence>

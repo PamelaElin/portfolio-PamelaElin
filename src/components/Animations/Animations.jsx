@@ -32,17 +32,10 @@ export const nut = {
   },
   hidden: { rotate: 0 },
 };
-export const boom = {
-  visible: {
-    x:0,
-    scale: [1, 2, 2, 1, 1],
-    borderRadius: ["20%", "20%", "50%", "50%", "0%"], transition:{
-      duration: 2,
-      ease: "easeInOut",
-      times: [0, 0.2, 0.2, 0.2, 1],
-      repeat: 0,
-      Delay: 1
-    }
-  },
-  hidden: { rotate: 0 },
-};
+
+ export const boom= {
+    visible: {x:0,
+      scale: [1, 2, 2, 1, 1],
+       transition: { duration: 2 } }, 
+    hidden: { x: 0 }
+  };

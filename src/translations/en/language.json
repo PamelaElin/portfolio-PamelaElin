@@ -15,6 +15,16 @@
                  
 
    },
+   "resumePage":{
+      
+      "title":"Download my resume",
+      "btn1":"Spanish",
+      "btn2":"English"
+      
+     
+     
+
+},
    "aboutPage":{
       "about":"Hi, My name is Elin!",
       "title":"I started as a self-taught and now I am strengthening my knowledge in OpenBootcamp.",

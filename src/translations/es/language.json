@@ -16,6 +16,16 @@
                 
 
    },
+   "resumePage":{
+      
+      "title":"Descarga mi CV",
+      "btn1":"Español",
+      "btn2":"Inglés"
+      
+     
+     
+
+},
    "aboutPage":{
     "about":"Hola, mi nombre es Elin!",
     "title":"Empecé como autodidacta y ahora estoy reforzando mis conocimientos en OpenBootcamp.",

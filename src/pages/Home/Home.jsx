@@ -2,14 +2,14 @@ import { useNavigate } from "react-router-dom";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Resume from "../../assets/cv.pdf";
+
 import useStyles from "./useStyles";
 import { motion } from "framer-motion";
 import {
   father,
   toRight,
   toLeft,
-  nut,
+  boom,
 } from "../../components/Animations/Animations";
 import ButtonOrange from "../../components/Buttons/ButtonOrange/ButtonOrange";
 import ButtonSlider from "../../components/Buttons/ButtonSlider/ButtonSlider";
@@ -19,6 +19,7 @@ const Home = () => {
   const navigate = useNavigate();
   const toWork = () => navigate("/work");
   const toContact = () => navigate("/contact");
+  const toResumes = () => navigate("/resumes");
   const styles = useStyles();
   const [t] = useTranslation("language");
   return (
@@ -50,7 +51,7 @@ const Home = () => {
         </div>
 
         <div className={styles.socialIcons}>
-          <motion.div variants={nut}>
+          <motion.div variants={boom}>
             <div className={`${styles.iconBox}  bg-[#86b7df] `}>
               <a
                 className={styles.icon}
@@ -63,7 +64,7 @@ const Home = () => {
               </a>
             </div>
           </motion.div>
-          <motion.div variants={nut}>
+          <motion.div variants={boom}>
             <div className={`${styles.iconBox} bg-[#333333] `}>
               {" "}
               <a
@@ -77,7 +78,7 @@ const Home = () => {
               </a>
             </div>
           </motion.div>
-          <motion.div variants={nut}>
+          <motion.div variants={boom}>
             <div className={`${styles.iconBox} bg-[#6fc2b0]`}>
               <div
                 className={styles.icon}
@@ -88,15 +89,16 @@ const Home = () => {
               </div>
             </div>
           </motion.div>
-          <motion.div variants={nut}>
+          <motion.div variants={boom}>
             <div className={`${styles.iconBox} bg-orange-400`}>
-              <a
+            <div
                 className={styles.icon}
-                href={Resume}
+                onClick={toResumes}
                 title={t("homePage.titleCV")}
-              >
-                <BsFillPersonLinesFill size={30} />
-              </a>
+              > <BsFillPersonLinesFill size={30} />
+              </div>
+             
+            
             </div>
           </motion.div>
         </div>

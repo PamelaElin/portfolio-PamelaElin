@@ -2,14 +2,14 @@
 
 const useStyles = () => {
   return {
-      container:'w-full h-screen  max-w-[1000px] mx-auto px-8 flex flex-col justify-center mt-12 lg:mt-8',
+      container:'w-full h-full  max-w-[1000px] mx-auto px-8 flex flex-col justify-center mt-12 lg:mt-8',
       subContainer:'h-full mt-[50px] mb-8 ',
       textContainer:"bg-gray-500/40 p-3 mt-[40px]",
       hi:'text-yellow-400  font-semibold text-3xl',
       textTitle:'text-2xl sm:text-6xl font-bold text-white',
       textsubTitle:'text-xl sm:text-4xl font-bold mt-2 text-white',
-      networksBox:"m-8 w-fit p-2 bg-gray-500/40 ",
-      networks:"text-white text-lg underline decoration-double underline-offset-4 ",
+      networksBox:"my-8  sm:w-fit  p-2 bg-gray-500/40 ",
+      networks:"text-white text-lg underline decoration-double underline-offset-4",
       socialIcons:" flex flex-wrap mt-2 ",
       iconBox:" w-[42px] h-[42px] flex justify-between items-center rounded-full  mr-2 text-white hover:scale-110 ",
       icon:"flex justify-center p-2  w-full ",

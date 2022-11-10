@@ -49,9 +49,13 @@ const Home = () => {
             {t("homePage.subtitle")}
           </motion.h2>
         </div>
+        <div className={styles.networksBox}>
 
+   <p className={styles.networks} >{t("homePage.networks")}</p>
         <div className={styles.socialIcons}>
+       
           <motion.div variants={boom}>
+            
             <div className={`${styles.iconBox}  bg-[#86b7df] `}>
               <a
                 className={styles.icon}
@@ -101,6 +105,7 @@ const Home = () => {
             
             </div>
           </motion.div>
+        </div>
         </div>
 
         <ButtonOrange text={t("buttonOrange.home")} onClick={toWork} />

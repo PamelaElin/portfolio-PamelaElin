@@ -11,7 +11,7 @@ const useStyles = () => {
       networksBox:"my-8  sm:w-fit  p-2 bg-gray-500/40 ",
       networks:"text-white text-lg underline decoration-double underline-offset-4",
       socialIcons:" flex flex-wrap mt-2 ",
-      iconBox:" w-[42px] h-[42px] flex justify-between items-center rounded-full  mr-2 text-white hover:scale-110 ",
+      iconBox:" w-[42px] h-[42px] flex justify-between items-center rounded-full  mr-2 text-white hover:scale-125 ",
       icon:"flex justify-center p-2  w-full ",
       btn:'text-white  border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:scale-105 rounded-full ',
       arrow:'ml-3 '

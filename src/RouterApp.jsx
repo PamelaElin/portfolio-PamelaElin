@@ -1,19 +1,21 @@
 import About from "./pages/About/About.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
 import Home from "./pages/Home/Home.jsx";
-import NavBar from "./components/NavBar/NavBar.jsx";
 import Skills from "./pages/Skills/Skills.jsx";
 import Work from "./pages/Work/Work.jsx";
 import { Routes, Route } from "react-router-dom";
-import { AnimatePresence } from "framer-motion";
 import { Resumes } from "./pages/Resumes/Resumes.jsx";
+import bgVideo from "../src/assets/videoBg7.mp4";
+
 
 const RouterApp = () => {
   return (
     <div>
-      <NavBar />
      
-      <AnimatePresence>
+     
+     <video autoPlay loop muted>
+					<source src={bgVideo} type='video/mp4' />
+				</video>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -22,8 +24,7 @@ const RouterApp = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/resumes" element={<Resumes />} />
         </Routes>
-       
-      </AnimatePresence>
+     
       
     </div>
   );

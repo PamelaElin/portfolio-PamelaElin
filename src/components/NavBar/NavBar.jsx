@@ -39,10 +39,10 @@ const handleClick=()=>setNav(!nav);
         <FaBars />  
       </div>: 
     
-      <div onClick={handleClick}>
+      <div onClick={handleClick} className={styles.mobile_menu}>
         
     
-      <ul className={styles.mobile_menu}>
+      <ul className={styles.mobile_menu_list}>
        <div className={styles.x}><FaTimes /> </div>
        <li  onClick={toHome} className={styles.mobile_menu_text}>{t("navPage.home")}</li>
         <li onClick={toAbout} className={styles.mobile_menu_text}>{t("navPage.about")}</li>
@@ -52,7 +52,7 @@ const handleClick=()=>setNav(!nav);
       </ul>
       </div>}
     
-      {/*social  icons */}
+    
     
     
     </div>

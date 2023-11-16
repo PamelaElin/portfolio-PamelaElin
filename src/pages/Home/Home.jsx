@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-
+import Me from "../../assets/imgMe.jpg";
 import useStyles from "./useStyles";
 import { motion } from "framer-motion";
 import {
@@ -33,7 +33,9 @@ const Home = () => {
         <ButtonSlider />
 
         <div className={styles.textContainer}>
+
           <motion.p variants={toLeft} className={styles.hi}>
+          <img src={Me} className={styles.img} alt="imgMe" />
             {t("homePage.hi")}
           </motion.p>
           <motion.h1

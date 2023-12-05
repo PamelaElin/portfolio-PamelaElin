@@ -1,10 +1,12 @@
 import useStyles from "./useStyles";
 import { motion} from "framer-motion";
-import Me from "../../assets/imgMe.jpg";
+import Me from "../../assets/imgMe2.jpg";
 import { father, toRight } from "../../components/Animations/Animations";
 import { useTranslation } from "react-i18next";
 import Footer from "../../components/Footer/Footer";
 import {BsEmojiSmile} from "react-icons/bs";
+
+
 const About = () => {
   const styles = useStyles();
   const [t]=useTranslation("language");
@@ -32,11 +34,11 @@ const About = () => {
           <div className={styles.colum}>
             <div className={styles.columText}>
               <p className={styles.hi}>
-                {t("aboutPage.title")}
+                {t("aboutPage.title")}   
               </p>
             </div>
 
-            <div>
+            <div >
               <p>
                {t("aboutPage.textCol2")}
               </p>

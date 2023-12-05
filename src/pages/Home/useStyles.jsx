@@ -4,7 +4,7 @@ const useStyles = () => {
   return {
       container:'w-full h-full  max-w-[1000px] mx-auto px-8 flex flex-col justify-center mt-12 lg:mt-8',
       subContainer:'h-full mt-[50px] mb-8 ',
-      textContainer:"bg-gray-500/40 p-3 mt-[40px]",
+      textContainer:"bg-gray-500/40 p-3 mt-[40px] md:flex",
       hi:'text-yellow-400  font-semibold text-3xl  md:flex md:items-end',
       img:"rounded-full w-[20rem] my-2 ", 
       textTitle:'text-2xl sm:text-6xl font-bold text-white',

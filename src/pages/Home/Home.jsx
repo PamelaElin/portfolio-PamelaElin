@@ -33,9 +33,13 @@ const Home = () => {
         <ButtonSlider />
 
         <div className={styles.textContainer}>
-
+       <div className="md:w-full">
+        
+<img src={Me} className={styles.img} alt="imgMe" />
+        </div>   
+        <div >
           <motion.p variants={toLeft} className={styles.hi}>
-          <img src={Me} className={styles.img} alt="imgMe" />
+          
             {t("homePage.hi")}
           </motion.p>
           <motion.h1
@@ -50,6 +54,8 @@ const Home = () => {
           >
             {t("homePage.subtitle")}
           </motion.h2>
+        </div>
+          
         </div>
         <div className={styles.networksBox}>
 

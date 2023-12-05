@@ -8,7 +8,7 @@
 },
    "homePage":{
                  "hi":"Hi and Welcome!",
-                 "title":"My name is Pamela Elin Sosa and I'm Front-end Developer.",
+                 "title":"My name is Pamela Elin Sosa and I'm Full-Stack Developer.",
                  "subtitle":"I invite you to take a few minutes, prepare your coffee, and see my portfolio. I hope you like it!",
                  "networks":"Visit my networks/download my resume",
                  "titleContact":"Send me an email",
@@ -27,10 +27,10 @@
 
 },
    "aboutPage":{
-      "about":"Hi, My name is Elin!",
-      "title":"I am self-taught, although now I am reinforcing my knowledge in a Full-Stack course.",
-      "textCol2":"I am a front-end developer|React js. Working in a team allowed me to gain experience in hard and soft skills. I value the good work environment and daily learning together with the rest of the team. I learn new technologies to improve my skills every day and adapt to changes. I aspire to work in a company where I can expand my knowledge and constantly evolve.",
-      "textCol3":" I made the portfolio with my knowledge as a self-taught, compiling several of the things I learned. In it you will find projects before and after the course, I hope you like it!"
+      "about":"I'll tell you a little bit about me!",
+      "title":"Self-taught 2021-∞ Front-end Developer React.js Full-Stack Web Development MERN",
+      "textCol2":"I have experience in front-end development, and back-end knowledge. I started as a self-taught person and in 2023 I took the MDP Program Full-Stack MERN course. I value the good work environment and daily learning. I learn new technologies to improve my skills every day and adapt to changes. I aspire to work in a company where I can expand my knowledge and constantly evolve.",
+      "textCol3":" I made the portfolio with my knowledge as a self-taught, compiling several of the things I learned. In it you will find my projects before the course. I'm currently creating a new portfolio with Next js. In the meantime I keep this one updated. Hope you like it!"
                
    },
    "skillsPage":{

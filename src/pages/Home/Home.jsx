@@ -33,11 +33,11 @@ const Home = () => {
         <ButtonSlider />
 
         <div className={styles.textContainer}>
-       <div className="md:w-full">
+       <div className="m-2">
         
 <img src={Me} className={styles.img} alt="imgMe" />
         </div>   
-        <div >
+        <div className="flex flex-col justify-center items-center ml-4">
           <motion.p variants={toLeft} className={styles.hi}>
           
             {t("homePage.hi")}
@@ -58,6 +58,7 @@ const Home = () => {
           
         </div>
         <div className={styles.networksBox}>
+<div>
 
    <p className={styles.networks} >{t("homePage.networks")}</p>
         <div className={styles.socialIcons}>
@@ -101,7 +102,16 @@ const Home = () => {
               </div>
             </div>
           </motion.div>
-          <motion.div variants={boom}>
+</div>
+
+
+          
+          
+        </div>
+        <div >
+          <p className={styles.networks} >{t("homePage.titleCV")}</p>
+<div className={styles.socialIconsResume}>
+  <motion.div variants={boom}>
             <div className={`${styles.iconBox} bg-orange-400`}>
             <div
                 className={styles.icon}
@@ -113,7 +123,9 @@ const Home = () => {
             
             </div>
           </motion.div>
-        </div>
+</div>
+            
+          </div>
         </div>
 
         <ButtonOrange text={t("buttonOrange.home")} onClick={toWork} />

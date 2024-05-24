@@ -5,7 +5,6 @@ import Skills from "./pages/Skills/Skills.jsx";
 import Work from "./pages/Work/Work.jsx";
 import { Routes, Route } from "react-router-dom";
 import { Resumes } from "./pages/Resumes/Resumes.jsx";
-import bgVideo from "../src/assets/videoBg7.mp4";
 
 
 const RouterApp = () => {
@@ -13,9 +12,6 @@ const RouterApp = () => {
     <div>
      
      
-     <video autoPlay loop muted>
-					<source src={bgVideo} type='video/mp4' />
-				</video>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

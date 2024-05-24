@@ -1,7 +1,7 @@
 const useStyles = () => {
   return {
     container:'w-full h-full mt-12  flex justify-center items-center p-8 md:p-4 flex-col',
-   textContainer:"bg-gray-500/50 p-3",
+   textContainer:" p-3",
     form:'flex flex-col max-w-[600px] w-full ',
     textContact:'md:text-4xl text-3xl font-bold inline border-b-4 border-yellow-500 text-white ',
     textEmail:'text-white py-4 text-lg',

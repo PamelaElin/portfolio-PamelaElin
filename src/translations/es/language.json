@@ -29,9 +29,12 @@
 },
    "aboutPage":{
     "about":"Te cuento un poco sobre mí!",
-    "title":"Autodidacta 2021-∞ Desarrolladora Front-end React.js Desarrollo web Full-Stack MERN",
-    "textCol2":" Poseo experiencia en el desarrollo Front-end, y conocimientos en back-end. Empecé como autodidacta y éste 2023 realicé el curso Full-Stack MERN de MDP Programa. Valoro el buen ambiente de trabajo y el aprendizaje diario. Aprendo nuevas tecnologías para mejorar mis habilidades todos los días y adaptarme a los cambios. Aspiro a trabajar en una empresa donde pueda ampliar mis conocimientos y evolucionar constantemente.",
-    "textCol3":" El portfolio lo hice con mis conocimientos como autodidacta, recopilando varias de las cosas que aprendí. En él encontrarán mis proyectos antes del curso. Actualmente me encuentro creando un nuevo portfolio con Next js. mientras tanto mantengo éste mismo actualizado.Espero que les guste!"
+    "aboutSubtitle":"Actualmente, trabajo como desarrolladora Frontend para una consultora de software a medida.",
+    "title1":" Desarrolladora Front-end",
+    "title2":" Desarrollo web Full-Stack MERN ",
+    "title3":" Autodidacta 2021-∞",
+    "textCol2":"Soy una Desarrolladora web apasionada por la resolución de problemas y el aprendizaje continuo. Me adapto fácilmente a los cambios, soy perseverante y celebro el crecimiento personal, tanto mío como de quienes me rodean. En cuanto a mi formación, soy autodidacta y he ampliado mis conocimientos con un curso Full-Stack MERN.",
+    "textCol3":" En éste portfolio encontrarán mis proyectos antiguos. Actualmente me encuentro creando uno nuevo con Next js,  mientras tanto mantengo éste mismo actualizado.Espero que les guste!"
    
    },
    "skillsPage":{

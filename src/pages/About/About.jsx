@@ -24,8 +24,9 @@ const About = () => {
         variants={toRight}
         className={styles.ring}>
           <div className={styles.about}>
-            <div >
+            <div className="grid gap-6" >
               <p  className={styles.aboutText}>{t("aboutPage.about")}</p>
+              <p  className={styles.aboutTextSubtitle}>{t("aboutPage.aboutSubtitle")}</p>
             </div>
             <div className={styles.imgContainer}>
               <img src={Me} className={styles.img} alt="imgMe" />
@@ -34,7 +35,13 @@ const About = () => {
           <div className={styles.colum}>
             <div className={styles.columText}>
               <p className={styles.hi}>
-                {t("aboutPage.title")}   
+                {t("aboutPage.title1")}   
+              </p>
+              <p className={styles.hi}>
+                {t("aboutPage.title2")}   
+              </p>
+              <p className={styles.hi}>
+                {t("aboutPage.title3")}   
               </p>
             </div>
 

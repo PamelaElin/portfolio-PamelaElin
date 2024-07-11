@@ -27,11 +27,14 @@
 
 },
    "aboutPage":{
-      "about":"I'll tell you a little bit about me!",
-      "title":"Self-taught 2021-∞ Front-end Developer React.js Full-Stack Web Development MERN",
-      "textCol2":"I have experience in front-end development, and back-end knowledge. I started as a self-taught person and in 2023 I took the MDP Program Full-Stack MERN course. I value the good work environment and daily learning. I learn new technologies to improve my skills every day and adapt to changes. I aspire to work in a company where I can expand my knowledge and constantly evolve.",
-      "textCol3":" I made the portfolio with my knowledge as a self-taught, compiling several of the things I learned. In it you will find my projects before the course. I'm currently creating a new portfolio with Next js. In the meantime I keep this one updated. Hope you like it!"
-               
+    "about": "Let me tell you a bit about myself!",
+    "aboutSubtitle": "Currently, I work as a Frontend Developer for a custom software consultancy.",
+    "title1": " Frontend Developer",
+    "title2": " Full-Stack MERN Web Development",
+    "title3": " Self-taught 2021-∞",
+    "textCol2": "I am a passionate web developer dedicated to problem-solving and continuous learning. I easily adapt to changes, am perseverant, and celebrate personal growth for both myself and those around me. In terms of my education, I am self-taught and have expanded my knowledge with a Full-Stack MERN course.",
+    "textCol3": "In this portfolio, you will find my previous projects. I am currently creating a new one with Next.js, while keeping this one updated. I hope you like it!"
+       
    },
    "skillsPage":{
                   "skills":"Skills",

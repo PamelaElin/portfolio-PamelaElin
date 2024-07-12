@@ -10,13 +10,13 @@
   height: 250px;
 }
 
-.content-div:hover {
+/* .content-div:hover {
   background-image: linear-gradient(
     to right,
     rgba(36, 40, 49, 0.8),
     hsla(242, 11%, 50%, 0.8)
   ) !important;
-}
+} */
 
 .switch {
   position: relative;

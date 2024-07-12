@@ -96,12 +96,12 @@ const Skills = () => {
           <div className={styles.iconBox}>
             <img className={styles.icon} src={NodeImg} alt="node icon" />
           </div>
-          <div className={styles.iconBox}>
+          {/* <div className={styles.iconBox}>
             <img className={styles.icon} src={MongoDBImg} alt="mongo icon" />
-          </div>
-          <div className={styles.iconBox}>
+          </div> */}
+          {/* <div className={styles.iconBox}>
             <img className={styles.icon} src={TypescriptImg} alt="typescript icon" />
-          </div>
+          </div> */}
           <div className={styles.iconBox}>
             <img className={styles.icon} src={MySql} alt="mysql icon" />
           </div>

@@ -12,7 +12,7 @@
                  "subtitle":"Full-Stack Developer.",
                  "networks":"Visit my networks",
                  "titleContact":"Send me an email",
-                 "titleCV":"Download my resume"
+                 "titleCV":"Download resume"
                  
 
    },
@@ -20,7 +20,8 @@
       
       "title":"Download my resume",
       "btn1":"Spanish",
-      "btn2":"English"
+      "btn2":"English",
+      "alert":"Resume under update"
       
      
      
@@ -47,7 +48,9 @@
             "textMovies":"This movie application demonstrates the implementation of the TMDB API call. It contains a search, an animated button, and the covers open a modal window with the overviews of your choice. Home redirects to the main search screen. Bootstrap and css were used.",
             "textWeather":"This Weather App shows the implementation of the openweathermap API call with axios. It looks for the weather according to the location you want. It was created with Reactjs and css.",
             "textcrud":"(Create, Read, Update, Delete) This project was created with React.js, implementing redux-toolkit, react-router-dom and Tailwind",
-            "textToDo":"To do List - This is a CRUD based project. Built with React.js, redux-toolkit, react-router-dom, and Tailwind."
+            "textToDo":"To do List - This is a CRUD based project. Built with React.js, redux-toolkit, react-router-dom, and Tailwind.",
+            "textAyrton": "Custom portfolio for an Argentine artist touring Europe, using Next.js and Tailwind. Responsive design, including a gallery of videos and audios of live performances."
+
          },
    "contactPage":{
       "contact":"Contact",

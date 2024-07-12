@@ -14,6 +14,10 @@ import useStyles from "./useStyles";
 export const Resumes = () => {
   const [t] = useTranslation("language");
   const styles = useStyles();
+// alert temporal hasta que se modifique cv
+  const handleClick=(e)=>{
+    e.preventDefault()
+    alert(`${t("resumePage.alert")}`)}
   return (
     <motion.div
       initial="hidden"
@@ -31,10 +35,10 @@ export const Resumes = () => {
           {t("resumePage.btn1")}
         </a>
       </motion.div>
-      <motion.div variants={toLeft} >
-        <a href={ResumeEn} target="_blank" rel="noreferrer"className={styles.btn}>
+      <motion.div variants={toLeft} onClick={handleClick} className={styles.btn}>
+        {/* <a href={ResumeEn} target="_blank" rel="noreferrer"> */}
           {t("resumePage.btn2")}
-        </a>
+        {/* </a> */}
       </motion.div>
       </div>
       

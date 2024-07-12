@@ -8,7 +8,7 @@ const useStyles = () => {
       text:'my-6 text-lg  ',
       containerWorks:'grid  sm:grid-cols-2 md:grid-cols-2 gap-4  ',
       workBox:'ring-2 ring-yellow-500  p-5  rounded-md ',
-      bg:'shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div ',
+      bg:'shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div opacity-100 hover:opacity-70 ',
       hover:'opacity-0 group-hover:opacity-100',
       title:'text-2xl font-bold text-white grid justify-center ',
       Btns:'pt-8 text-center',

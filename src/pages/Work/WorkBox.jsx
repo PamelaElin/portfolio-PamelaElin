@@ -1,14 +1,14 @@
 import React from 'react';
 import useStyles from './useStyles';
 
-const WorkBox = ({pic,title,demo,code,text}) => {
+const WorkBox = ({pic,onClick,text}) => {
     const styles=useStyles();
 
   return (
     <div className={styles.workBox}>
-            <div style={{backgroundImage:`url(${pic})`}} className={styles.bg}>
+            <div style={{backgroundImage:`url(${pic})`}} className={styles.bg} onClick={onClick}>
                 {/* hover effects */}
-                <div className={styles.hover}>
+                {/* <div className={styles.hover}>
                     <span className={styles.title}>
                     {title}
                     </span>
@@ -20,7 +20,7 @@ const WorkBox = ({pic,title,demo,code,text}) => {
                             <button className={styles.CodeBtn}>Code</button>
                         </a>
                     </div>
-                </div>
+                </div> */}
             </div>
             <div className={styles.foot}>
                 <p>{text}</p>

@@ -21,7 +21,8 @@
       
       "title":"Descarga mi CV",
       "btn1":"Español",
-      "btn2":"Inglés"
+      "btn2":"Inglés",
+      "alert":"CV en proceso de actualización"
       
      
      
@@ -49,7 +50,8 @@
     "textMovies":"Ésta App de películas muestra la implementación de llamada a la API TMDB. Contiene un search, un botón animado, y las portadas abren una ventana modal con las reseñas de tu elección. El Home redirige a la pantalla principal de búsqueda. Se utilizó Bootstrap y css.",
     "textWeather":"Esta aplicación meteorológica muestra la implementación de la llamada a la API de openweathermap con axios. Busca el clima según la ubicación que desees. Fue creado con Reactjs y css.",
     "textcrud":"(Crear, Leer, Actualizar, Eliminar) Éste proyecto fue creado con React.js, implementando redux-toolkit, react-router-dom y Tailwind",
-    "textToDo":"Lista de tareas: Es un proyecto basado en el CRUD anterior. Creado con React.js, redux-toolkit, react-router-dom y Tailwind.  "
+    "textToDo":"Lista de tareas: Es un proyecto basado en el CRUD anterior. Creado con React.js, redux-toolkit, react-router-dom y Tailwind.  ",
+    "textAyrton":"Portfolio personalizado para un artista argentino, recorriendo Europa, utilizando Next.js y Tailwind. Diseño responsive, incluyendo galería de videos y audios de actuaciones en vivo."
 
    },
    "contactPage":{

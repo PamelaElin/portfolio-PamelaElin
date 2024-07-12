@@ -1,4 +1,5 @@
 import WorkImg from '../../assets/workImg.jpeg';
+import ayrtonImg from '../../assets/ayrtonImg.jpeg'
 import weatherImg from '../../assets/weatherImg.jpeg';
 import crudImg from '../../assets/crudImg.jpeg';
 import toDoList from '../../assets/toDoList.jpeg';
@@ -23,33 +24,36 @@ variants={father}  name='work' className={styles.container}>
      
 
         <motion.div variants={toUp}  className={styles.containerWorks}>
+        <WorkBox onClick={() => window.open('https://ayrton-sosa.vercel.app/', '_blank')}
+            pic={ayrtonImg}
+            title='Ayrton Portfolio'
+            
+            text={t("workPage.textAyrton")}
+            />
           
-            <WorkBox
+            <WorkBox onClick={() => window.open('https://popular-movies-e.netlify.app/', '_blank')}
             pic={WorkImg}
             title='Popular Movies'
-            demo='https://popular-movies-e.netlify.app/'
-            code='https://github.com/PamelaElin/popular-movies'
+            
             text={t("workPage.textMovies")}
             />
-             <WorkBox
+             <WorkBox onClick={() => window.open('https://weather-app-pe.netlify.app/', '_blank')}
             pic={weatherImg}
             title='Weather App'
-            demo='https://weather-app-pe.netlify.app/'
-            code='https://github.com/PamelaElin/weather-app'
+      
+            
             text={t("workPage.textWeather")}
             />
-              <WorkBox
+              <WorkBox onClick={() => window.open('https://crud-redux-toolkit.netlify.app/', '_blank')}
             pic={crudImg}
             title='CRUD'
-            demo='https://crud-redux-toolkit.netlify.app/'
-            code='https://github.com/PamelaElin/CRUD-redux'
+          
             text={t("workPage.textcrud")}
             />
-            <WorkBox
+            <WorkBox onClick={() => window.open('https://to-do-list-pe.netlify.app/', '_blank')}
             pic={toDoList}
             title='To Do List'
-            demo='https://to-do-list-pe.netlify.app/'
-            code='https://github.com/PamelaElin/todo-list'
+         
             text={t("workPage.textToDo")}
             />
             

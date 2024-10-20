@@ -1,5 +1,5 @@
 import React from "react";
-import pe from "../../assets/pe.png"
+import LogoElin from "../../assets/LogoElin.svg"
 import { useState } from "react";
 import { FaBars,  FaTimes} from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
@@ -22,7 +22,7 @@ const handleClick=()=>setNav(!nav);
   return (
     <div className={styles.container}>
       
-        <img src={pe} alt="pes_img" className={styles.peImg} />
+        <img src={LogoElin} alt="pes_img" className={styles.peImg} />
       
 
       {/* menu */}

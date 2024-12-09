@@ -65,7 +65,7 @@ const Home = () => {
        
           <motion.div variants={boom}>
             
-            <div className={`${styles.iconBox}  bg-[#86b7df] `}>
+            <div className={`${styles.iconBox}  bg-rose-500 `}>
               <a
                 className={styles.icon}
                 href="https://www.linkedin.com/in/pamelaelinsosa/"
@@ -78,7 +78,7 @@ const Home = () => {
             </div>
           </motion.div>
           <motion.div variants={boom}>
-            <div className={`${styles.iconBox} bg-[#333333] `}>
+            <div className={`${styles.iconBox} bg-rose-500 `}>
               {" "}
               <a
                 className={styles.icon}
@@ -92,7 +92,7 @@ const Home = () => {
             </div>
           </motion.div>
           <motion.div variants={boom}>
-            <div className={`${styles.iconBox} bg-[#6fc2b0]`}>
+            <div className={`${styles.iconBox} bg-rose-500`}>
               <div
                 className={styles.icon}
                 onClick={toContact}
@@ -112,7 +112,7 @@ const Home = () => {
           <p className={styles.networks} >{t("homePage.titleCV")}</p>
 <div className={styles.socialIconsResume}>
   <motion.div variants={boom}>
-            <div className={`${styles.iconBox} bg-orange-400`}>
+            <div className={`${styles.iconBox} bg-rose-500`}>
             <div
                 className={styles.icon}
                 onClick={toResumes}

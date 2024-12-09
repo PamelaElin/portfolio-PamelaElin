@@ -9,7 +9,7 @@ const useStyles = () => {
       img:"rounded-full w-[20rem] my-2 ", 
       textTitle:'text-2xl sm:text-6xl font-bold text-white w-full',
       textsubTitle:'text-xl sm:text-4xl font-bold mt-2 text-white',
-      networksBox:"my-8  sm:w-fit  p-2 grid gap- sm:flex  justify-between",
+      networksBox:"my-8  sm:w-fit  p-2  gap-16 flex  justify-between",
       networks:"text-white text-lg underline decoration-double underline-offset-4 ",
       socialIcons:" flex flex-wrap mt-2 ",
       socialIconsResume:" flex justify-center mt-2 ",

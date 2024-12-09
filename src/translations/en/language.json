@@ -50,7 +50,7 @@
             "textcrud":"(Create, Read, Update, Delete) This project was created with React.js, implementing redux-toolkit, react-router-dom and Tailwind",
             "textToDo":"To do List - This is a CRUD based project. Built with React.js, redux-toolkit, react-router-dom, and Tailwind.",
             "textAyrton": "Custom portfolio for an Argentine artist touring Europe, using Next.js and Tailwind. Responsive design, including a gallery of videos and audios of live performances."
-
+,"textNatural":"Natural Deluxe is a website for luxury cabin rentals. It offers information about cabins, local experiences, and a contact section for reservations and inquiries. Developed with Angular and Tailwind CSS, it combines attractive design and dynamic functionality."
          },
    "contactPage":{
       "contact":"Contact",

@@ -55,11 +55,11 @@
   transition: 0.4s;
   border-radius: 50%;
   z-index: -1;
-  background-color: black;
+  background-color: rgb(244 63 94);
 }
 
 input:checked + .slider {
-  background-color: #000000e1;
+  background-color: rgb(244 63 94);
   
 
 }
@@ -79,7 +79,7 @@ input:checked + .slider:before {
 
 .slider:after {
   content: "ES";
-  color: black;
+  color: rgb(244 63 94);
 
   
   display: block;

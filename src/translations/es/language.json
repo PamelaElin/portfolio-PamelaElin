@@ -51,7 +51,8 @@
     "textWeather":"Esta aplicación meteorológica muestra la implementación de la llamada a la API de openweathermap con axios. Busca el clima según la ubicación que desees. Fue creado con Reactjs y css.",
     "textcrud":"(Crear, Leer, Actualizar, Eliminar) Éste proyecto fue creado con React.js, implementando redux-toolkit, react-router-dom y Tailwind",
     "textToDo":"Lista de tareas: Es un proyecto basado en el CRUD anterior. Creado con React.js, redux-toolkit, react-router-dom y Tailwind.  ",
-    "textAyrton":"Portfolio personalizado para un artista argentino, recorriendo Europa, utilizando Next.js y Tailwind. Diseño responsive, incluyendo galería de videos y audios de actuaciones en vivo."
+    "textAyrton":"Portfolio personalizado para un artista argentino, recorriendo Europa, utilizando Next.js y Tailwind. Diseño responsive, incluyendo galería de videos y audios de actuaciones en vivo.",
+    "textNatural":"Natural Deluxe es una página web para el alquiler de cabañas de lujo. Ofrece información sobre cabañas, experiencias locales, y una sección de contacto para reservas y consultas. Desarrollado con Angular y Tailwind CSS, combina diseño atractivo y funcionalidad dinámica."
 
    },
    "contactPage":{

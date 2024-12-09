@@ -1,4 +1,5 @@
 import WorkImg from '../../assets/workImg.jpeg';
+import Natural from '../../assets/nd.jpeg'
 import ayrtonImg from '../../assets/ayrtonImg.jpeg'
 import weatherImg from '../../assets/weatherImg.jpeg';
 import crudImg from '../../assets/crudImg.jpeg';
@@ -24,7 +25,13 @@ variants={father}  name='work' className={styles.container}>
      
 
         <motion.div variants={toUp}  className={styles.containerWorks}>
-          
+        <WorkBox onClick={() => window.open('https://natural-deluxe.vercel.app/', '_blank')}
+            pic={Natural}
+            title='Ayrton Portfolio'
+            
+            text={t("workPage.textNatural")}
+            />
+
         <WorkBox onClick={() => window.open('https://ayrton-sosa.vercel.app/', '_blank')}
             pic={ayrtonImg}
             title='Ayrton Portfolio'

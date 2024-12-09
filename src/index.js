@@ -18,6 +18,7 @@ i18next.init({interpolation:{escapeValue:false},
 const root=ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
+  
    {/* <video autoPlay loop muted>
 					<source src={bgVideo} type='video/mp4' />
 				</video> */}

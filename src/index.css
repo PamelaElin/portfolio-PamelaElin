@@ -12,5 +12,8 @@
         @apply px-4;
         @apply cursor-pointer
     }
+    .bgNav {
+  
+        @apply bg-black/70 ;}
 }
 

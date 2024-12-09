@@ -1,13 +1,13 @@
 
-.bgNav {
-  
-  background-color: black;}
 
-.content-div {
+
+.app {
+  background-image: url('/src/assets/pexels-photo-19994041.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 250px;
+  height: 100%;
+  
 }
 
 /* .content-div:hover {
@@ -36,7 +36,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #df6bdfe3;
+  background-color: white;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 34px;
@@ -50,30 +50,38 @@
   width: 20px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 50%;
   z-index: -1;
+  background-color: black;
 }
 
 input:checked + .slider {
-  background-color: #1aa6e7e1;
+  background-color: #000000e1;
+  
+
 }
 
 input:focus + .slider {
   box-shadow: 0 0 1px #10e2c6;
+  
 }
 
 input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(40px);
+  background-color: white;
+
 }
 
 .slider:after {
   content: "ES";
-  color: white;
+  color: black;
+
+  
   display: block;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -85,4 +93,7 @@ input:checked + .slider:before {
 
 input:checked + .slider:after {
   content: "EN";
+  color: white;
+ 
+
 }

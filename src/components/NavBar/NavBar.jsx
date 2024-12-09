@@ -22,7 +22,7 @@ const handleClick=()=>setNav(!nav);
   return (
     <div className={styles.container}>
       
-        <img src={LogoElin} alt="pes_img" className={styles.peImg} />
+        <img src={LogoElin} alt="pes_img" className={styles.peImg} onClick={toHome} />
       
 
       {/* menu */}

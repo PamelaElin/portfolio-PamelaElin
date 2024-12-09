@@ -37,7 +37,7 @@ const Home = () => {
         
 <img src={Me} className={styles.img} alt="imgMe" />
         </div>   
-        <div className="flex flex-col justify-center items-center ml-4">
+        <div className="flex flex-col justify-center  items-center ml-4">
           <motion.p variants={toLeft} className={styles.hi}>
           
             {t("homePage.hi")}

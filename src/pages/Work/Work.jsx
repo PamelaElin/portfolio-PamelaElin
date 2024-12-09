@@ -24,6 +24,7 @@ variants={father}  name='work' className={styles.container}>
      
 
         <motion.div variants={toUp}  className={styles.containerWorks}>
+          
         <WorkBox onClick={() => window.open('https://ayrton-sosa.vercel.app/', '_blank')}
             pic={ayrtonImg}
             title='Ayrton Portfolio'

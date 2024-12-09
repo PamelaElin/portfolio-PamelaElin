@@ -1,5 +1,5 @@
-import { FaReact, FaRegHeart } from 'react-icons/fa';
-import { GoMarkGithub}from 'react-icons/go';
+import {  FaGithubAlt, FaReact, FaRegHeart } from 'react-icons/fa';
+
 import { HiArrowNarrowRight } from "react-icons/hi";
 import useStyles from './useStyles';
 import { useTranslation } from 'react-i18next';
@@ -20,7 +20,7 @@ const Footer = () => {
 				
 					{t("footer.by")}
 					<span className={styles.spanFooter}><HiArrowNarrowRight/></span>
-					<span className={styles.spanFooter}><GoMarkGithub/></span>
+					<FaGithubAlt />
 				
 				</a>
 			</p>

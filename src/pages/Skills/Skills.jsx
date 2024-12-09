@@ -1,20 +1,3 @@
-import HTMLimg from "../../assets/html.png";
-import CSSimg from "../../assets/css.png";
-import JSimg from "../../assets/javascript.png";
-import SASSimg from "../../assets/sass.png";
-import BootstrapImg from "../../assets/bootstrap.png";
-import TWImg from "../../assets/tailwind.png";
-import ReactImg from "../../assets/react.png";
-import ReduxImg from "../../assets/redux.png";
-import GitImg from "../../assets/git.png";
-import GitHubImg from "../../assets/github.png";
-import NextImg from "../../assets/next.png";
-import ExpressImg from "../../assets/express.png";
-import NodeImg from "../../assets/node.png";
-import MongoDBImg from "../../assets/mongodb.png";
-import TypescriptImg from "../../assets/typescript.png";
-import MySql from "../../assets/mysql.png";
-
 import certif1 from "../../assets/certif1.png";
 import certif2 from "../../assets/certif2.png";
 import useStyles from "./useStyles";
@@ -27,6 +10,7 @@ import {
 } from "../../components/Animations/Animations";
 import { useTranslation } from "react-i18next";
 import Footer from "../../components/Footer/Footer";
+import { FaAngular, FaBootstrap, FaCss3Alt, FaGit, FaGithub, FaHtml5, FaJsSquare, FaNode, FaReact, FaSass } from "react-icons/fa";
 
 const Skills = () => {
   const styles = useStyles();
@@ -50,60 +34,58 @@ const Skills = () => {
 
         <motion.div variants={toUp} className={styles.containerSkills}>
           <div className={styles.iconBox}>
-            <img className={styles.icon} src={HTMLimg} alt="HTML icon" />
+           
+            <FaHtml5 />
            
           </div>
           <div className={styles.iconBox}>
-            <img className={styles.icon} src={CSSimg} alt="css icon" />
+            <FaCss3Alt />
            
           </div>
           <div className={styles.iconBox}>
-            <img className={styles.icon} src={JSimg} alt="js icon" />
+            <FaJsSquare />
         
           </div>
           <div className={styles.iconBox}>
-            <img className={styles.icon} src={ReactImg} alt="react icon" />
+            <FaReact />
             
           </div>
           <div className={styles.iconBox}>
-            <img className={styles.icon} src={ReduxImg} alt="redux icon" />
+          zustand
           </div>
           <div className={styles.iconBox}>
-            <img className={styles.icon} src={SASSimg} alt="sass icon" />
+            <FaSass />
           </div>
           <div className={styles.iconBox}>
-            <img
-              className={styles.icon}
-              src={BootstrapImg}
-              alt="bootstrap icon"
-            />
+         
+            <FaBootstrap />
           </div>
           <div className={styles.iconBox}>
-            <img className={styles.icon} src={TWImg} alt="tw icon" />
+            Tailwhind
           </div>
           <div className={styles.iconBox}>
-            <img className={styles.icon} src={GitImg} alt="git icon" />
+            <FaGit />
+
           </div>
           <div className={styles.iconBox}>
-            <img className={styles.icon} src={GitHubImg} alt="github icon" />
+            <FaGithub />
           </div>
           <div className={styles.iconBox}>
-            <img className={styles.icon} src={NextImg} alt="next icon" />
+          Next js
           </div>
           <div className={styles.iconBox}>
-            <img className={styles.icon} src={ExpressImg} alt="express icon" />
+            express
           </div>
           <div className={styles.iconBox}>
-            <img className={styles.icon} src={NodeImg} alt="node icon" />
+            <FaNode />
           </div>
-          {/* <div className={styles.iconBox}>
-            <img className={styles.icon} src={MongoDBImg} alt="mongo icon" />
-          </div> */}
-          {/* <div className={styles.iconBox}>
-            <img className={styles.icon} src={TypescriptImg} alt="typescript icon" />
-          </div> */}
+       
+           <div className={styles.iconBox}>
+           Typescript
+          </div> 
           <div className={styles.iconBox}>
-            <img className={styles.icon} src={MySql} alt="mysql icon" />
+          <FaAngular />
+            
           </div>
         </motion.div>
       </div>

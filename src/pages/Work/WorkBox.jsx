@@ -6,21 +6,9 @@ const WorkBox = ({pic,onClick,text}) => {
 
   return (
     <div className={styles.workBox}>
-            <div style={{backgroundImage:`url(${pic})`}} className={styles.bg} onClick={onClick}>
-                {/* hover effects */}
-                {/* <div className={styles.hover}>
-                    <span className={styles.title}>
-                    {title}
-                    </span>
-                    <div className={styles.Btns}>
-                        <a href={demo} target='_blank' rel="noreferrer">
-                            <button className={styles.DemoBtn}>Demo</button>
-                        </a>
-                        <a href={code} target='_blank' rel="noreferrer">
-                            <button className={styles.CodeBtn}>Code</button>
-                        </a>
-                    </div>
-                </div> */}
+            <div 
+ >
+    <img src={pic} alt="img" onClick={onClick} className={styles.bg}/>
             </div>
             <div className={styles.foot}>
                 <p>{text}</p>

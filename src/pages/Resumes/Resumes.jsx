@@ -1,6 +1,5 @@
 import React from "react";
 import ResumeEs from "../../assets/cvES.pdf";
-import ResumeEn from "../../assets/cvEN.pdf";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import {
